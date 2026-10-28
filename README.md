@@ -86,3 +86,31 @@ commerciale validée.
 
 Projet personnel — Master Finance, Actuariat
 et Data Science.
+
+## Installation et utilisation
+
+### 1. Télécharger le projet
+Télécharger le repository au format ZIP depuis GitHub,
+puis extraire les fichiers.
+
+### 2. Installer les bibliothèques
+Ouvrir le dossier du projet dans VS Code,
+puis exécuter dans le terminal :
+
+python -m pip install -r requirements.txt
+
+### 3. Lancer l'application Streamlit
+
+python -m streamlit run app.py
+
+### 4. Utiliser le simulateur
+Renseigner les caractéristiques du conducteur
+et du véhicule, puis cliquer sur
+"Calculer la prime pure".
+
+L'application utilise les modèles Poisson
+et Gamma enregistrés dans le dossier modeles.
+
+Note : les modèles ont été entraînés localement.
+Des versions compatibles de Python et
+scikit-learn sont nécessaires pour les charger.
