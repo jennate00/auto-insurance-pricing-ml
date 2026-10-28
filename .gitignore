@@ -1,0 +1,23 @@
+
+# Données téléchargées
+data/
+
+# Résultats générés
+resultats/
+
+# Fichiers temporaires Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environnements virtuels
+.venv/
+venv/
+
+# Configuration locale
+.env
+.vscode/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
